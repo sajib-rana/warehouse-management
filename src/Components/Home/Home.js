@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Items from '../Items/Items';
+
 const Home = () => {
     return (
         <div>
-            <h1>this is home</h1>
+            <Items></Items>
         </div>
     );
 };
