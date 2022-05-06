@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "627530cff01c06a5877262fd",
+    "img": "https://i.ibb.co/QF6k8tm/motorola.jpg",
+    "price": 371,
+    "quantity": 37,
+    "name": "Motorola Moto E32",
+    "suplierName": "Motorola",
+    "description": "Fingerprint (side-mounted), accelerometer, proximity\r\n"
+  },
+  {
+    "_id": "627530cf8a4ee67bdf21684a",
+    "img": "https://i.ibb.co/rc4PKkp/oppo.jpg",
+    "price": 275,
+    "quantity": 25,
+    "name": "Oppo Reno8 Lite",
+    "suplierName": "Oppo",
+    "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass\r\n"
+  },
+  {
+    "_id": "627530cfd14c49e8470ec661",
+    "img": "https://i.ibb.co/yyhX0yg/vivo.jpg",
+    "price": 252,
+    "quantity": 24,
+    "name": "vivo T1 Pro",
+    "suplierName": "vivo",
+    "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass.\r\n"
+  },
+  {
+    "_id": "627530cf8e2765745dd19879",
+    "img": "https://i.ibb.co/HXp7Q0X/zte.jpg",
+    "price": 327,
+    "quantity": 36,
+    "name": "ZTE Axon 40 Ultra",
+    "suplierName": "ZTE Axon",
+    "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass.\r\n"
+  },
+  {
+    "_id": "627530cf470b5cb06003e7ca",
+    "img": "https://i.ibb.co/KxvtZPK/oneplus-10r.jpg",
+    "price": 339,
+    "quantity": 26,
+    "name": "OnePlus 10R",
+    "suplierName": "OnePlus",
+    "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass.\r\n"
+  },
+  {
+    "_id": "627530cfea6a602f5295cce3",
+    "img": "https://i.ibb.co/k8qTqmW/nokia.jpg",
+    "price": 399,
+    "quantity": 37,
+    "name": "Nokia C21 Plus",
+    "suplierName": "Nokia",
+    "description": "Fingerprint (rear-mounted), accelerometer, proximity.\r\n"
+  }
+]
