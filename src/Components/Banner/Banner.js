@@ -16,10 +16,10 @@ const Banner = () => {
       <Carousel.Item>
         <img className="d-block w-100" src={img1} alt="First slide" />
         <Carousel.Caption>
-          <h3>Super body fitness</h3>
+          <h3>Your Expected Phone</h3>
           <p>
-            we are ensure the quality the service and care every man so that he
-            reach his goal.
+            we are ensure the quality the product and care every man so that he
+            can fomfortable use it.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -27,10 +27,10 @@ const Banner = () => {
         <img className="d-block w-100" src={img2} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>Super body fitness</h3>
+          <h3>Your Expected Phone</h3>
           <p>
-            we are ensure the quality the service and care every man so that he
-            reach his goal.
+            we are ensure the quality the product and care every man so that he
+            can fomfortable use it.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,10 +38,10 @@ const Banner = () => {
         <img className="d-block w-100" src={img3} alt="Third slide" />
 
         <Carousel.Caption>
-          <h3>Super body fitness</h3>
+          <h3>Your Expected Phone</h3>
           <p>
-            we are ensure the quality the service and care every man so that he
-            reach his goal.
+            we are ensure the quality the product and care every man so that he
+            can fomfortable use it.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

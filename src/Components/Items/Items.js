@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+
+import useProducts from '../../Hooks/product';
 import Item from '../Item/Item';
 import './Items.css'
 
 const Items = () => {
-    const [items, setItems] = useState([])
+    const [items, setItems] = useProducts();
 
-    useEffect(() => {
-      fetch("warehouse.json")
-        .then((res) => res.json())
-        .then((data) => setItems(data));
-    }, []);
     return (
         <div id='services' className='services'>
             <h1 className='service-title'> Our Services</h1>
