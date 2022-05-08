@@ -1,11 +1,11 @@
-.service-info img {
-    width: 100%;
+.product-info img {
+    width: 40%;
 
 }
 
-.service-info {
+.product-info {
     border: 1px solid lightgray;
     border-radius: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+    padding: 10px;
+    text-align: left;
 }
