@@ -17,7 +17,7 @@ const Register = () => {
         navigate('/login')
     }
     if(user){
-        console.log('user',user)
+        navigate('/home')
     }
     const handleRegister = async(event) =>{
         event.preventDefault();
