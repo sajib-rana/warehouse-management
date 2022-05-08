@@ -11,7 +11,7 @@ const SocialLogin = () => {
   const navigate = useNavigate();
   let errorElement;
   if (error) {
-    errorElement = <p className="text-danger">Error: {error.message}</p>;
+    errorElement = <p className="text-danger">Error: {error?.message}</p>;
   }
   if (user) {
     navigate("/home");

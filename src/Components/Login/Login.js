@@ -27,6 +27,10 @@ const [sendPasswordResetEmail] =
      if(user){
      navigate(from, { replace: true });
   }
+  let errorElement;
+  if (error) {
+    errorElement = <p className="text-danger">Error: {error?.message}</p>
+  }
     const handleSubmit = event =>{
           event.preventDefault()
           const email = emailRef.current.value;
@@ -73,6 +77,7 @@ const [sendPasswordResetEmail] =
           >
             Login
           </Button>
+          {errorElement}
         </Form>
         <p>
           New to Phone store?{" "}
