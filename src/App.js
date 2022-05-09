@@ -8,7 +8,6 @@ import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Register from './Components/Login/Register/Register';
 import NotFound from './Components/NotFound/NotFound';
-import Detail from './Components/ProductDetail/Detail/Detail';
 import ProductDetail from './Components/ProductDetail/ProductDetail';
 import RequireAuth from './RequireAuth/RequireAuth';
 
@@ -22,11 +21,6 @@ function App() {
         <Route path='/item/:productId' element={<ProductDetail></ProductDetail>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='detail' element={
-          <RequireAuth>
-            <Detail></Detail>
-          </RequireAuth>
-        }></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
