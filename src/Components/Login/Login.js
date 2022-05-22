@@ -35,7 +35,8 @@ const [sendPasswordResetEmail] =
           event.preventDefault()
           const email = emailRef.current.value;
           const password = passwordRef.current.value;
-          signInWithEmailAndPassword(email, password)
+         signInWithEmailAndPassword(email, password)
+         
     }
     const resetPassword = async() =>{
       const email = emailRef.current.value;
